@@ -105,3 +105,5 @@ function FCGI.FilterT(port, ...)
 	obj.socket:setoption('tcp-nodelay', true)
 	FCGI.FilterK(obj, ...)
 end
+
+return FCGI

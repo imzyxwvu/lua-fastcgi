@@ -26,6 +26,6 @@ You can use the code anywhere you want if you have sent me an email to me or lef
 
 ## Come and See My Blog
 
-[imzyx.com](http://imzyx.com)
+[imzyx.com](http://imzyx.com) This blog is running on a web server written in Lua that uses this library.
 
 I love Joshua_RK and Zhyupe.
