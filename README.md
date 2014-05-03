@@ -12,7 +12,7 @@ The following code should be executed in a Copas thread:
         REQUEST_URI = "/test.php",
         DOCUMENT_ROOT = "C:/htdocs",
         REQUEST_METHOD = "GET",
-    }, io.write, inputfunc)
+    }, function(...) io.write(...) return true end, inputfunc)
   
 If the inputfunc is given as a Lua function, it can be used to read the POST data. It should return a string, the number 0 which means the data is completed or nil that aborts the FastCGI request.
 
